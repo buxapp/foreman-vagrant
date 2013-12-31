@@ -7,6 +7,8 @@
 # See params.pp in each class for what options are available
 ---
 foreman: true
-puppet: true
+puppet: false
+  version: 3.3.2-1puppetlabs1
 puppetmaster: true
+  version: 3.3.2-1puppetlabs1
 foreman_proxy: true
